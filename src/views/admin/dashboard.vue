@@ -96,7 +96,7 @@ onMounted(() => {
             </div>
           </div>
         </div>
-        <img src="/src/assets/admin/img/dashboard.svg" alt="/src/assets/admin/img/dashboard.svg" class="position-absolute left-end h-100" />
+       
       </div>
     </div>
   </div>

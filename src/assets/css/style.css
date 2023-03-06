@@ -54,7 +54,7 @@ a {
 }
 .loader-content {
   border-radius: 0.5rem;
-  background: linear-gradient(to right, #ffc0a5, #ff986c, #ff834e);
+  background: linear-gradient(to right,  #806d67,  #70615c ,  #442D25);
   background-size: 400% 400%;
   animation: 1s loader-content ease infinite;
 }

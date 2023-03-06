@@ -43,7 +43,7 @@ let x = setInterval(function () {
       toggleBtnAlert.value = true;
     } else {
       toggleBtnAlert.value = false;
-      timer.value = 'wees Moleee';
+      timer.value = ' WAKTU HABIS';
     }
   }
 }, 1000);
@@ -76,7 +76,6 @@ const goHome = async () => {
 <template>
   <div v-if="toggleBtnAlert" @click="toggleModalAddTime = true" class="btn bg-danger text-white position-relative">
     Waktu Habis
-    <span class="position-absolute start-50 tooltip-timer btn-sm bg-white text-dark">Tekan Untuk Tambah Waktu</span>
   </div>
   <span v-else class="badge bg-label-warning me-1"> {{ distance < 0 ? timer.value : `Timer :  ${timer.value}` }}</span>
   <div v-if="toggleModalAddTime" class="modal fade show" id="modalCenter" style="display: block; background-color: var(--bs-gray-dark)">
@@ -102,7 +101,7 @@ const goHome = async () => {
                 <button type="button" class="btn btn-outline-secondary w-100" @click="toggleModalAddTime = false">Kembali</button>
                 <button @click="updateTime(props.idInvoice)" type="button" class="btn w-100 btn-primary">Tambahkan Sekarang</button>
               </div>
-              <button class="btn btn-danger w-100" @click="goHome">PULANG AJA</button>
+              <button class="btn btn-danger w-100" @click="goHome">PULANG!</button>
             </div>
           </div>
         </div>
